@@ -5,3 +5,62 @@
     box-sizing:border-box;
     font-family:'Plus Jakarta Sans', sans-serif;
 }
+
+
+/* ----VARIABLES ----------- */
+
+:root{
+    --primary-color:#f74780;
+    --light-blue:#666ca3;
+    --dark-blue:#13183f;
+    --gray-color:#83869a;
+    --pink-color:#ffa7c3;
+    --white-color:#ffffff;
+}
+
+
+/* -----HEADER SECIION ------ */
+
+.hero{
+    width:90%;
+    margin:auto;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+
+.hero .hero-img{
+   max-width:750px;
+   position:absolute;
+   top:-10%;
+   right:0;
+   
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2% 8%;
+}
+
+
+nav .get-started{
+    padding:13px 30px;
+    background:var(--dark-blue);
+    color:var(--white-color);
+    font-size:17px;
+    font-weight:700;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+/* -----END OF HEADER SECIION ------ */
