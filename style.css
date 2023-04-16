@@ -172,7 +172,38 @@ section{
     font-weight:700;
 }
 
-
-
-
 /* ------END OF  COURSES SECTION STYLING ---------------*/
+
+
+@media screen and (max-width:600px){
+    .container{
+        width:100%;
+    }
+
+    .welcome-section h1{
+        width:400px;
+        font-size:40px;
+        line-height:50px;
+        margin-top:2%;
+       
+    }
+
+    .hero-img{
+        display:none;
+    }
+
+    .welcome-section p{
+        font-size:13px;
+        margin-bottom:30px;
+    }
+
+    .course-time{
+        width:100%;
+        background-image:url('images/image-hero-mobile@2x.png');
+    }
+
+    .courses{
+        width:100%;
+        padding:20px;
+    }
+}
