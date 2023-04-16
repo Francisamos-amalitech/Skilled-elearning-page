@@ -175,6 +175,37 @@ section{
 /* ------END OF  COURSES SECTION STYLING ---------------*/
 
 
+/* ----FOOTER SECTION STYLING------ */
+footer{
+    padding:50px 0;
+    background:var(--dark-blue);
+
+}
+
+
+.footer-container{
+    width:85%;
+    margin:auto;
+}
+
+.footer-links{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.footer-links .btn{
+    text-decoration:none;
+    background:linear-gradient(#4851ff, #f02aa6);
+}
+
+
+
+
+/* ----END OF FOOTER SECTION STYLING------ */
+
+/* -------RESPONSIVENESS -------------------- */
+
 @media screen and (max-width:600px){
     .container{
         width:100%;
